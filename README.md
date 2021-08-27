@@ -1,5 +1,5 @@
 # Angular Pet Projects
-# [DEMO](https://johnsteck9.github.io/AngularPetProjects/dist/AngularPetProjects)
+<!-- # [DEMO](https://johnsteck9.github.io/AngularPetProjects/dist/AngularPetProjects) -->
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
