@@ -1,0 +1,52 @@
+mat-spinner {
+  margin: 10px auto;
+
+
+  svg {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.loading-snippet {
+  padding: 20px;
+  height: 100px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.table__col_id, .table__row_id {
+  width: unset;
+}
+
+td, th {
+  width: 25%;
+}
+
+tr {
+
+  &:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  &:hover {
+    background-color: rgba(137, 58, 183, 0.42);
+  }
+
+  td {
+    padding: 100px 6px;
+
+    &:hover {
+      background-color: rgba(141, 58, 183, 0.52);
+    }
+  }
+}
