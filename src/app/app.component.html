@@ -1,0 +1,18 @@
+
+<header>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><img src="assets/images/angular-white-transparent.svg" alt="angular logo"></li>
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+          <a [routerLink]="['/']"><h2>Angular</h2></a>
+        </li>
+        <li routerLinkActive="active">
+          <a [routerLink]="['/users']"><h2>Users</h2></a></li>
+        <li routerLinkActive="active"><a [routerLink]="['/todos']"><h2>Todos</h2></a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<router-outlet></router-outlet>

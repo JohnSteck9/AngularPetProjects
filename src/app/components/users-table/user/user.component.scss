@@ -1,0 +1,23 @@
+section {
+  margin: 0;
+  .container {
+    margin: 20px auto;
+  }
+}
+
+ul {
+  margin-left: 20px;
+  li {
+    padding: 6px;
+    display: block;
+    font-size: 16px;
+    &.title {
+      font-weight: 600;
+      font-size: 21px;
+    }
+  }
+}
+
+strong {
+  font-weight: bold;
+}
